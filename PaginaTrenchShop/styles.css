@@ -1,0 +1,172 @@
+body {
+    font-family: monospace;
+    background: url('90.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #dd2b03e6;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.cabecera {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.img-cabecera {
+    width: 50%;
+    height: auto;
+}
+
+.productos {
+    background-color: #dd2b03e6;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.productos h2 {
+    color: #f2ff00;
+}
+
+.ofertas {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#ir-productos {
+    display: inline-block;
+    margin: 10px 0 20px;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+#ir-productos:hover {
+    background-color: #e6c222;
+}
+
+
+.productos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productos-titulos {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.productos-imagen {
+    margin-bottom: 20px;
+}
+
+.productos-lista {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+}
+
+.producto {
+    text-align: center;
+}
+
+.imagen-adicional {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#formulario {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 630px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#formulario h3 {
+    text-align: center;
+    color: red;
+}
+
+#contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #dd2b03e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.copyright {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #dd2b03e6;
+    color: white;
+    margin: 0;
+    font-size: 0.9em;
+}
